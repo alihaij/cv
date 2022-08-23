@@ -58,12 +58,12 @@ hr {
 .bot-cloud {
   position: absolute;
   left: 300px;
-  bottom: 550px;
+  bottom: 550%;
 }
 .span-big-word{
   font-weight: bold;
 }
 .my-pic{
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
