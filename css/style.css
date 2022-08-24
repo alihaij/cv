@@ -49,7 +49,7 @@ hr {
 }
 
 .mountain {
-  width: 666px;
+  width: 27%;
 }
 
 .top-cloud {
@@ -61,7 +61,7 @@ hr {
 .bot-cloud {
   position: absolute;
   left: 300px;
-  bottom: 550%;
+  bottom: 40%;
 }
 
 .span-big-word {
@@ -69,20 +69,20 @@ hr {
 }
 
 .my-pic {
-  width:13%;
+  width:17%;
 
 }
 
 .skill-row {
-  width: 35%;
-  margin:100px auto 100px auto;
+  width: 45%;
+  margin:150px auto 150px auto;
   text-align: left;
   line-height: 2;
 }
 .github-img {
 width: 40%;
 float: left;
-margin-right: 40px;
+margin-right: 62px;
 
 
 }
@@ -128,4 +128,7 @@ a:hover{
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+li{
+  color: gray;
 }
