@@ -74,21 +74,21 @@ hr {
 }
 
 .skill-row {
-  width: 27%;
-  margin:auto;
+  width: 35%;
+  margin:100px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
 .github-img {
-width: 50%;
+width: 40%;
 float: left;
 margin-right: 40px;
 
+
 }
 .certificate-img {
-width: 50%;
+width: 40%;
 float: right;
-margin-left: 30px;
 }
 a{
   color: #11999E;
