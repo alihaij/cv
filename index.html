@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Merriweather&family=Montserrat&family=Sacramento&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
@@ -11,15 +12,42 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contactMe.html">contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#cer-img">certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="myhobbies.html">My Hoppis</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="top-container col-lg-12 col-sm-lg-12">
 
-  <div class="top-container">
-    <img src="images/cloud.png" alt="cloud" class="top-cloud">
     <h1>I'm Ali Haij</h1>
     <h2>a <span class="pro">pro</span>grammer.</h2>
     <img src="images/cloud.png" alt="" class="bot-cloud">
     <img src="images/mountain.png" alt="" class="mountain">
   </div>
-  <div class="middle-container">
+  <div class="middle-container col-lg-12">
     <div class="profile">
       <img src="images\pic.png" alt="" class="my-pic">
       <h2>Hello.</h2>
@@ -40,34 +68,39 @@
           <li>Implementation at small client environments.</li>
         </ul></p>
       </div>
-      <div class="skill-row">
-        <img class="certificate-img" src="images\certificate.png" alt="">
-        <h3>certificate</h3>
-        <p>The Complete 2022 Web Development Bootcamp.</p>
-        <p>Flutter & Dart - The Complete Guide [2022 Edition]</p>
-        <p>Data-Driven Decision Making (DDDM)</p>
-      </div>
+
     </div>
     <br>
     <hr>
+    <br>
+
+  </div>
+  <div id="cer-img"class="middle-container col-lg-12">
+    <h3>certificate</h3>
+    <button class="btn btn-default" onclick="myImagePrev()"type="button" name="button"> <span class="glyphicon glyphicon-chevron-left"> prev</span></button>
+    <img class="certificate" src='' alt="" id="cer" width="700" height="500">
+    <button class="btn btn-default"  onclick="myImageNext()"type="button" name="button"><span class="glyphicon glyphicon-chevron-right"> next </span></button>
+    <br>
+
+<br>
+  <hr>
     <div class="contact-me">
       <h2>contact me</h2>
-      <h3>Get In Touch</h3>
-      <p>if u love Programming gameing or anime </p>
       <a class="btn" href="mailto:alihaij@gmail.com">CONTACT ME</a>
-
     </div>
   </div>
 
 
-  <div class="bot-container">
+  <div class="bot-container col-lg-12">
     <a class="footer-link" href="https://www.linkedin.com/in/%D9%90alihaij/">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/A3Haij">Twitter</a>
     <a class="footer-link" href="https://alihaij.github.io/cv/">Website</a>
     <p class="copyright">© 2022 Ali Haij.</p>
   </div>
 
+  <script src="javaScript/index.js" charset="utf-8">
 
+    </script>
 </body>
 
 </html>

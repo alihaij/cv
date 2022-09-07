@@ -20,6 +20,8 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
+  margin: auto;
+  text-align: center;
 }
 
 hr {
@@ -28,7 +30,9 @@ hr {
   border-top: none;
   border-width: 5px;
   color: gray;
+  margin: auto;
 }
+
 
 .top-container {
   padding-top: 100px;
@@ -61,7 +65,7 @@ hr {
 .bot-cloud {
   position: absolute;
   left: 300px;
-  bottom: 40%;
+  bottom: 50%;
 }
 
 .span-big-word {
@@ -69,40 +73,43 @@ hr {
 }
 
 .my-pic {
-  width:17%;
-
+  width: 17%;
 }
 
 .skill-row {
   width: 45%;
-  margin:150px auto 150px auto;
+  margin: 150px auto 150px auto;
   text-align: left;
   line-height: 2;
 }
+
 .github-img {
-width: 40%;
-float: left;
-margin-right: 62px;
-
-
+  width: 40%;
+  float: left;
+  margin-right: 62px;
 }
+
 .certificate-img {
-width: 40%;
-float: right;
+  width: 40%;
+  float: right;
 }
-a{
+
+a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
-text-decoration: none;
-margin: 20px 10px;
+  text-decoration: none;
+  margin: 20px 10px;
 }
-a:hover{
+
+a:hover {
   color: #EAF6F6;
 }
-.copyright{
+
+.copyright {
   font-size: 0.75rem;
   color: #EAF6F6;
 }
+
 .btn {
   background: #11ccd4;
   background-image: -webkit-linear-gradient(top, #11ccd4, #11999e);
@@ -113,7 +120,7 @@ a:hover{
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -129,6 +136,12 @@ a:hover{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-li{
+
+li {
   color: gray;
+}
+.certificate{
+  margin: 2rem 10rem 3rem 10rem;
+  
+
 }
