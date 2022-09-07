@@ -56,18 +56,15 @@ hr {
   width: 27%;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
 
 .bot-cloud {
   position: absolute;
   left: 300px;
   bottom: 50%;
 }
-
+.hoppies{
+  padding:2rem 10rem 2rem 10rem;
+}
 .span-big-word {
   font-weight: bold;
 }
