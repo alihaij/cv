@@ -43,6 +43,7 @@ hr {
   margin: 100px 0;
 }
 
+
 .bot-container {
   background-color: #66BFBF;
   padding: 40px;
@@ -55,7 +56,6 @@ hr {
 .mountain {
   width: 27%;
 }
-
 
 .bot-cloud {
   position: absolute;
@@ -140,5 +140,14 @@ li {
 .certificate{
   margin: 2rem 10rem 3rem 10rem;
 
-
+}
+.dark{
+  background-color: #2A2B2E;
+  color: #ffffff;
+}
+.dark-container {
+  background: #030328;
+}
+.dark-text{
+  color: #ffffff;
 }

@@ -9,8 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Merriweather&family=Montserrat&family=Sacramento&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+</head>
 <body>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
@@ -21,18 +22,22 @@
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contactMe.html">contact</a>
+            <a class="nav-link active" aria-current="page" href="contactMe.html"><span>contact</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#cer-img">certificates</a>
+            <a class="nav-link active" aria-current="page" href="#cer-img"><span>certificates</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Projects</a>
+            <a class="nav-link active" aria-current="page" href="#"><span>Projects</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="myhobbies.html">My Hoppis</a>
+            <a class="nav-link active" aria-current="page" href="myhobbies.html"><span>My Hoppis</span></a>
           </li>
         </ul>
+        <div class="custome-control custon-switch mr-5">
+          <input type="checkbox" class="custom-coontrol-input dark-mode"id="selctor" value="">
+          <label class="custom-control-label1" for="">Dark Mode</label>
+        </div>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
@@ -40,7 +45,8 @@
       </div>
     </div>
   </nav>
-  <div class="top-container col-lg-12 col-sm-lg-12">
+
+  <div class="top-container col-lg-12 col-sm-lg-12 ">
 
     <h1>I'm Ali Haij</h1>
     <h2>a <span class="pro">pro</span>grammer.</h2>

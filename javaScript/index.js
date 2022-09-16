@@ -5,6 +5,18 @@ var certificates_array = [ 'certificates/DDDM coursera.png', 'certificates/data-
 'certificates/Flutter bootcamp Udemy.png',
   'certificates/java1.png', 'certificates/java2.png',
   'certificates/python.png','certificates/Web Development Udemy.png'];
+  $( ".dark-mode" ).on( "click", function() {
+    $("nav").toggleClass("bg-dark");
+      $("body").toggleClass("dark");
+      $(".top-container").toggleClass("dark-container");
+      $(".bot-container").toggleClass("dark-container");
+      $("h1").toggleClass("dark-text");
+      $("a").toggleClass("dark-text");
+      $("span").toggleClass("dark-text");
+      $("h2").toggleClass("dark-text");
+
+
+  });
 
 function myImageNext(){
   document.getElementById('cer').src = certificates_array[i];
@@ -20,9 +32,9 @@ function myImagePrev(){
       i = certificates_array.length-1;
   }
     document.getElementById('cer').src = certificates_array[i];
-
-
 }
+
+$('h1').onclick()
 function changeImage(){
 document.getElementById('cer').src = certificates_array[i];
 if (i < certificates_array.length-1){
@@ -48,3 +60,8 @@ window.onload=changeImage;
 //       }
 //       return( true );
 //    }
+
+// $( "body" ).on( "click", function() {
+//   //
+//   $('body').toggleClass("dark");
+// });
